@@ -1,0 +1,38 @@
+{
+  "name": "Aligator",
+  "version": "0.1.0",
+  "description": "This is a framework made with Koa",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TonyMtz/Aligator.git"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test node --harmony `which gulp` test-all",
+    "start": "node --harmony index.js"
+  },
+  "keywords": [
+    "aligator",
+    "rest-service"
+  ],
+  "author": "TonyMtz",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "co-supertest": "0.0.7",
+    "gulp": "^3.8.10",
+    "gulp-exit": "0.0.2",
+    "gulp-mocha-co": "^0.4.1-co.3",
+    "supertest": "^0.15.0"
+  },
+  "dependencies": {
+    "co-body": "^1.0.0",
+    "co-monk": "^1.0.0",
+    "colors": "^1.0.3",
+    "koa": "^0.14.0",
+    "koa-logger": "^1.2.2",
+    "koa-mount": "^1.3.0",
+    "koa-router": "^3.8.0",
+    "monk": "^0.9.1"
+  }
+}
