@@ -6,7 +6,7 @@ This is a framework made with [Koa](http://koajs.com/). Basically is a CRUD righ
 ### Installation ###
 
 * Clone this repo
-* Install [NodeJS](http://nodejs.org/download/) and
+* Install [NodeJS 0.11.14](http://nodejs.org/dist/v0.11.14/) and
 * install [Gulp](https://github.com/gulpjs/gulp/):
 ```bash
 $ sudo npm install gulp -g
