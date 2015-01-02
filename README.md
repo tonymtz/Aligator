@@ -6,6 +6,7 @@ This is a framework made with [Koa](http://koajs.com/). Basically is a CRUD righ
 ### Installation ###
 
 * Clone this repo
+* Download and install MongoDB
 * Install [NodeJS 0.11.14](http://nodejs.org/dist/v0.11.14/) and
 * install [Gulp](https://github.com/gulpjs/gulp/):
 ```bash
